@@ -1,0 +1,21 @@
+# Patients (name, dob)
+Jens Hans Olsen, 11111143521
+Petrolina Swiq, 24120099343
+Sven Svendsen, 10111224244
+June Olsen, 21049563451
+# Medicine (name, type, price, active substance, [strength])
+Predizol, narcotic, 450, 75, 8
+Paralgin Forte, addictive, 65, 400.5
+Placebo Pianissimo, common, 10.0
+Ibux, common, 240.200
+# Doctors (name, control ID / 0 if regular doctor)
+Dr. Cox, 0
+Dr. Wilson, 0
+Dr. House, 12345
+Dr. Hillestad Lovold, 0
+# Prescriptions (medicineNumber, doctorName, patientID, type, [reit])
+1, Dr. Cox, 2, white, 7
+2, Dr. Hillestad Lovold, 3, blue, 1000
+0, Dr. House, 1, military, 12
+3, Dr. Hillestad Lovold, 3, p,
+3, Dr. Hillestad Lovold, 0, p,
